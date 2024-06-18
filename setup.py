@@ -23,6 +23,8 @@ name='StudentMLProject',
 version='0.0.1',
 author='Rohan',
 author_email='ro.onedeore11@gmail.com',
-packages=find_packages(),
+packages=find_packages(where='src'),
+package_dir={'': 'src'},
+include_package_data=True,
 install_requires=get_requirements('requirements.txt')
 )

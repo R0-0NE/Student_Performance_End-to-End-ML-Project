@@ -6,3 +6,6 @@ pymysql
 scikit-learn 
 #sqlalchemy
 #-e . 
+seaborn
+catboost
+xgboost

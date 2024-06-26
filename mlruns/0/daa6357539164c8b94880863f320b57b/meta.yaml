@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DS_Projects/End%20to%20End%20ML%20Projects/Student_ML_Project/mlruns/0/daa6357539164c8b94880863f320b57b/artifacts
+end_time: 1719153400779
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daa6357539164c8b94880863f320b57b
+run_name: big-midge-717
+run_uuid: daa6357539164c8b94880863f320b57b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719153395536
+status: 3
+tags: []
+user_id: root

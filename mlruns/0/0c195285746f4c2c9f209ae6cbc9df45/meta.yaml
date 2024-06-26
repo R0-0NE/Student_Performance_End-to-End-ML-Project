@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DS_Projects/End%20to%20End%20ML%20Projects/Student_ML_Project/mlruns/0/0c195285746f4c2c9f209ae6cbc9df45/artifacts
+end_time: 1719153124999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c195285746f4c2c9f209ae6cbc9df45
+run_name: unequaled-lark-962
+run_uuid: 0c195285746f4c2c9f209ae6cbc9df45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719153124967
+status: 4
+tags: []
+user_id: root

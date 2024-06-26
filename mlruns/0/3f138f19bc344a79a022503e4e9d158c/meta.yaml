@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DS_Projects/End%20to%20End%20ML%20Projects/Student_ML_Project/mlruns/0/3f138f19bc344a79a022503e4e9d158c/artifacts
+end_time: 1719155715258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f138f19bc344a79a022503e4e9d158c
+run_name: dazzling-stag-452
+run_uuid: 3f138f19bc344a79a022503e4e9d158c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719155709879
+status: 3
+tags: []
+user_id: root

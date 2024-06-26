@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DS_Projects/End%20to%20End%20ML%20Projects/Student_ML_Project/mlruns/0/a72c1cc225824f28a8b9b6b4643ada0e/artifacts
+end_time: 1719381085114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a72c1cc225824f28a8b9b6b4643ada0e
+run_name: puzzled-lynx-779
+run_uuid: a72c1cc225824f28a8b9b6b4643ada0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719381079448
+status: 3
+tags: []
+user_id: root

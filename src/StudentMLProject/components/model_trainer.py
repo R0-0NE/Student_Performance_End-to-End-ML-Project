@@ -16,9 +16,9 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from xgboost import XGBRegressor
 
-from src.StudentMLProject.exception import CustomException
-from src.StudentMLProject.logger import logging
-from src.StudentMLProject.utils import evaluate_model,save_object
+from StudentMLProject.exception import CustomException
+from StudentMLProject.logger import logging
+from StudentMLProject.utils import evaluate_model,save_object
 
 @dataclass
 class ModelTrainerConfig:

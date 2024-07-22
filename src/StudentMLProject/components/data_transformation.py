@@ -8,9 +8,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 
-from src.StudentMLProject.utils import save_object
-from src.StudentMLProject.exception import CustomException
-from src.StudentMLProject.logger import logging
+from StudentMLProject.utils import save_object
+from StudentMLProject.exception import CustomException
+from StudentMLProject.logger import logging
 import os
 
 
@@ -27,10 +27,10 @@ class DataTransformation:
         this function is responsible for data transformation
         '''
         try:
-            numerical_columns=['reading score', 'writing score']
+            numerical_columns=['reading_score', 'writing_score']
             categorical_columns=[
-            'gender', 'race/ethnicity', 'parental level of education',
-            'lunch', 'test preparation course',
+            'gender', 'race_ethnicity', 'parental_level_of_education',
+            'lunch', 'test_preparation_course',
             ]
             num_pipeline=Pipeline(steps=[
                 ("imputer",SimpleImputer(strategy='median')),
@@ -65,7 +65,7 @@ class DataTransformation:
             preprocessing_obj= self.get_data_transformer_object()
 
             target_column_name="math score"
-            numerical_columns=["writing score","reading score"]
+            numerical_columns=["writing_score","reading_score"]
             
             ## divide train dataset to indep and dep feature
             input_features_train_df=train_df.drop(columns=[target_column_name],axis=1)

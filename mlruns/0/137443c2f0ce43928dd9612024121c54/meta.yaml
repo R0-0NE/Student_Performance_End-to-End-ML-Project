@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DS_Projects/End%20to%20End%20ML%20Projects/Student_ML_Project/mlruns/0/137443c2f0ce43928dd9612024121c54/artifacts
+end_time: 1721659503312
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 137443c2f0ce43928dd9612024121c54
+run_name: youthful-mink-285
+run_uuid: 137443c2f0ce43928dd9612024121c54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721659495758
+status: 3
+tags: []
+user_id: root

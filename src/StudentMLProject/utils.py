@@ -1,7 +1,7 @@
 import os
 import sys 
-from src.StudentMLProject.exception import CustomException
-from src.StudentMLProject.logger import logging
+from StudentMLProject.exception import CustomException
+from StudentMLProject.logger import logging
 import pandas as pd 
 from dotenv import load_dotenv
 import pymysql
@@ -77,3 +77,11 @@ def evaluate_model(X_train,y_train,X_test,y_test,models,param):
     
     except Exception as e:
         raise CustomException(e,sys)
+    
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as file_obj:
+            return pickle.load(file_obj)
+
+    except Exception as e:
+        raise CustomException(e, sys)
